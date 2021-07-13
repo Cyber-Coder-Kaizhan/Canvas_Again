@@ -1,0 +1,43 @@
+<html>
+<center>
+
+    <head>
+        <title>
+            My First Canvas
+        </title>
+        <style>
+            #body_tag {
+                background-image: url("https://www.calmsage.com/wp-content/uploads/2020/04/Hues-of-blue-perfect-to-find-your-calm..jpg");
+                background-position: center;
+                background-size: cover;
+            }
+
+            #cvs {
+                background-color: whitesmoke;
+                border-style: solid;
+                border-color: teal;
+            }
+        </style>
+    </head>
+
+    <body id="body_tag">
+        <h1>
+            Paint
+        </h1>
+        <span>
+            <canvas id="cvs" width="800" height="600">
+            </canvas>
+            <br><br>
+            <span>Radius -</span>
+            <input type="text" id="radius">
+            &nbsp;
+            <span>Color -</span>
+            <input type="text" id="color">
+            &nbsp;
+            <span>Pen width -</span>
+            <input type="text" id="width_of_line">
+            <br><br>
+            <button onclick="clear_out()">Clear</button>
+        </span>
+        <script src="canvas.js"></script>
+    </body>
